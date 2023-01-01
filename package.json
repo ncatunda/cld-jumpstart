@@ -1,0 +1,23 @@
+{
+  "name": "cld-jumpstart",
+  "version": "1.0.0",
+  "description": "Cloudinary Jumpstart Training - Getting Started as a Cloudinary Developer with the Node.js SDK",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudinary-training/cld-jumpstart.git"
+  },
+  "author": "Cloudinary Customer Education",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloudinary-training/cld-jumpstart/issues"
+  },
+  "homepage": "https://github.com/cloudinary-training/cld-jumpstart#readme",
+  "dependencies": {
+    "cloudinary": "^1.33.0",
+    "dotenv": "^16.0.3"
+  }
+}
