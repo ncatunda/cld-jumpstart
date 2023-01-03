@@ -1,0 +1,1 @@
+console.log("Execute config.js to verify credentials.")
