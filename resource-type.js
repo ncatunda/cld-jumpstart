@@ -30,7 +30,7 @@ cloudinary.uploader
 
 // Raw
 cloudinary.uploader
-  .upload("./assets/crazy_robot.ttf", { resource_type: "raw" })
+  .upload("./assets/y2kbug.ttf", { resource_type: "raw" })
   .then((result) => {
     console.log('-----------------RAW---------------');
     console.log(result);
