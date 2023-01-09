@@ -1,6 +1,6 @@
 const cloudinary = require("cloudinary").v2;
 cloudinary.config({ cloud_name:"jen-brissman", secure: "true" });
 
-// Create a URL from config with cloud name and public id
+// Supply cloud_name explicitly in the config object, not using CLOUDINARY_URL in .env file, not requiring dotenv 
 console.log(cloudinary.url("hiker"));
 
