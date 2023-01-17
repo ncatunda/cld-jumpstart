@@ -191,6 +191,6 @@ hiker.jpg - [Photo by Edou Hoekstra from Pexels](https://www.pexels.com/photo/ma
 
 glacier.mp4 - [Photo by Jan Zakelj from Pexels](https://www.pexels.com/video/cold-glacier-iceberg-melting-9358281/)
 
-surfer.jpg - [Wikimedia](https://upload.wikimedia.org/wikipedia/commons/3/35/Pro_Surfing_Competition.jpg)
+surfer.jpg - [Wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mavericks_Surf_Contest_2010b.jpg/2880px-Mavericks_Surf_Contest_2010b.jpg)
 
 y2kbug.ttf - [Public TrueType Font File, Y2K Bug, from All-free-download.com](https://all-free-download.com/font/download/y2k_bug_6919020.html)
