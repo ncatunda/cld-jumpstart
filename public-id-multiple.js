@@ -4,13 +4,9 @@ require("dotenv").config();
 const fs = require("fs");
 const cloudinary = require("cloudinary").v2;
 
-// Public ID - Naming Options
-// local asset
-// use filename + no randomization
-
 //Function to upload all images within a folder
 function uploadAllImagesInFolder() {
-  const folderPath = ".assets/DCIM";
+  const folderPath = "./assets/DCIM"; 
 
   fs.readdir(folderPath, (err, files) => {
     if (err) {
@@ -20,7 +16,7 @@ function uploadAllImagesInFolder() {
 
     const uploadPromises = files.map((file) => {
       const imagePath = `${folderPath}/${file}`;
-      return uploadAllImagesInFolder(imagePaht);
+      return uploadImage(imagePath);
     });
 
     Promise.all(uploadPromises)
@@ -35,7 +31,13 @@ function uploadAllImagesInFolder() {
   });
 }
 
+// Function to upload a single image
+function uploadImage(imagePath) {
+  return cloudinary.uploader.upload(imagePath, {
+    use_filename: true,
+    unique_filename: false,
+  });
+}
+
 // Call the function to upload all images from the "DCIM" folder
 uploadAllImagesInFolder();
-
-
